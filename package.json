@@ -1,0 +1,21 @@
+{
+  "name": "esperanto-training",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.5.7",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
+    "markdown-it": "^11.0.0",
+    "marked": "^1.1.0",
+    "nuxt": "^2.13.0"
+  },
+  "devDependencies": {}
+}

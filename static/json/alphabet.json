@@ -1,0 +1,422 @@
+[
+  {
+    "order": 0,
+    "type": "consonant",
+    "majuscule": "A",
+    "minuscule": "a",
+    "pronunciation": "a",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "a",
+        "example": "f*a*ther"
+      }
+    ]
+  },
+  {
+    "order": 1,
+    "type": "consonant",
+    "majuscule": "B",
+    "minuscule": "b",
+    "pronunciation": "bo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "b",
+        "example": "*b*oat"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "type": "consonant",
+    "majuscule": "C",
+    "minuscule": "c",
+    "pronunciation": "co",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "ts",
+        "example": "mit*ts*"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "type": "consonant",
+    "majuscule": "Ĉ",
+    "minuscule": "ĉ",
+    "pronunciation": "ĉo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "ch",
+        "example": "*ch*urch"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "type": "consonant",
+    "majuscule": "D",
+    "minuscule": "d",
+    "pronunciation": "do",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "d",
+        "example": "*d*eep"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "type": "vowel",
+    "majuscule": "E",
+    "minuscule": "e",
+    "pronunciation": "e",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "e",
+        "example": "w*e*t"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "type": "consonant",
+    "majuscule": "F",
+    "minuscule": "f",
+    "pronunciation": "fo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "f",
+        "example": "*f*amous"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "type": "consonant",
+    "majuscule": "G",
+    "minuscule": "g",
+    "pronunciation": "go",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "g",
+        "example": "*g*arage"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "type": "consonant",
+    "majuscule": "Ĝ",
+    "minuscule": "ĝ",
+    "pronunciation": "ĝo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "j",
+        "example": "*g*eneral"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "type": "consonant",
+    "majuscule": "H",
+    "minuscule": "h",
+    "pronunciation": "ho",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "h",
+        "example": "*h*ome"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "type": "consonant",
+    "majuscule": "Ĥ",
+    "minuscule": "ĥ",
+    "pronunciation": "ĥo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "ch",
+        "example": "lo*ch*"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "type": "vowel",
+    "majuscule": "I",
+    "minuscule": "i",
+    "pronunciation": "i",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "i",
+        "example": "mach*i*ne"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "type": "consonant",
+    "majuscule": "J",
+    "minuscule": "j",
+    "pronunciation": "jo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "y",
+        "example": "*y*es"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "type": "consonant",
+    "majuscule": "Ĵ",
+    "minuscule": "ĵ",
+    "pronunciation": "ĵo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "zh",
+        "example": "trea*s*ure"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "type": "consonant",
+    "majuscule": "K",
+    "minuscule": "k",
+    "pronunciation": "ko",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "k",
+        "example": "*k*ite"
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "type": "consonant",
+    "majuscule": "L",
+    "minuscule": "l",
+    "pronunciation": "lo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "l",
+        "example": "*l*ong"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "type": "consonant",
+    "majuscule": "M",
+    "minuscule": "m",
+    "pronunciation": "mo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "m",
+        "example": "*m*oat"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "type": "consonant",
+    "majuscule": "N",
+    "minuscule": "n",
+    "pronunciation": "no",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "n",
+        "example": "*n*oun"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "type": "vowel",
+    "majuscule": "O",
+    "minuscule": "o",
+    "pronunciation": "o",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "o",
+        "example": "b*o*at"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "type": "consonant",
+    "majuscule": "P",
+    "minuscule": "p",
+    "pronunciation": "po",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "p",
+        "example": "*p*eace"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "type": "consonant",
+    "majuscule": "R",
+    "minuscule": "r",
+    "pronunciation": "ro",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "r",
+        "example": "bu*rr*"
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "type": "consonant",
+    "majuscule": "S",
+    "minuscule": "s",
+    "pronunciation": "so",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "s",
+        "example": "*s*tart"
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "type": "consonant",
+    "majuscule": "Ŝ",
+    "minuscule": "ŝ",
+    "pronunciation": "ŝo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "sh",
+        "example": "*sh*ore"
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "type": "consonant",
+    "majuscule": "T",
+    "minuscule": "t",
+    "pronunciation": "to",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "t",
+        "example": "*t*oga"
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "type": "vowel",
+    "majuscule": "U",
+    "minuscule": "u",
+    "pronunciation": "u",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "oo",
+        "example": "b*oo*t"
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "type": "vowel",
+    "majuscule": "Ŭ",
+    "minuscule": "ŭ",
+    "pronunciation": "ŭ",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "w",
+        "example": "*w*estern"
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "type": "consonant",
+    "majuscule": "V",
+    "minuscule": "v",
+    "pronunciation": "vo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "v",
+        "example": "in*v*asion"
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "type": "consonant",
+    "majuscule": "Z",
+    "minuscule": "z",
+    "pronunciation": "zo",
+    "audio*file": "",
+    "translations": [
+      {
+        "lang": "en",
+        "minuscule": "z",
+        "example": "*z*ither"
+      }
+    ]
+  }
+]
