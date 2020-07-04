@@ -16,24 +16,23 @@
         </div>
       </b-col>
       <b-col md="4">
-        <p>Pronounce the letter you see.</p>
+        <p>Practice the pronunciation the letter you see.</p>
 
-        <p>Hear a pronuciation of the letter:</p>
+        <p>Listen to an example pronunciation:</p>
         <b-button class="mr-1 mb-1">Hear
           <b-icon icon="soundwave"></b-icon>
         </b-button>
 
-
         <p>Cycle through the letters:</p>
         <b-button-toolbar>
           <b-button-group class="mr-1">
-            <b-button v-on:click="prevLetter">
+            <b-button v-on:click="prevLetter" v-b-tooltip.hover title="Previous Letter">
               <b-icon icon="chevron-bar-left"></b-icon>
             </b-button>
-            <b-button v-on:click="nextLetter">
+            <b-button v-on:click="nextLetter" v-b-tooltip.hover title="Next Letter">
               <b-icon icon="chevron-bar-right"></b-icon>
             </b-button>
-            <b-button v-on:click="randLetter">
+            <b-button v-on:click="randLetter" v-b-tooltip.hover title="Random Letter">
               <b-icon icon="question"></b-icon>
             </b-button>
           </b-button-group>
@@ -59,21 +58,23 @@
 </style>
 
 <script>
+
+  function combinedLetter(alphabet, index) {
+    return alphabet[index].majuscule + ' ' + alphabet[index].minuscule;
+  }
+
   export default {
     layout: 'site',
     data() {
       return {
         alphabet: [],
-        letterId: 0
-      }
-    },
-    computed: {
-      combinedLetter: function () {
-        return this.alphabet[this.letterId].majuscule + ' ' + this.alphabet[this.letterId].minuscule;
+        letterId: 0,
+        combinedLetter: ''
       }
     },
     async fetch() {
       this.alphabet = await this.$http.$get('/json/alphabet.json');
+      this.combinedLetter = combinedLetter(this.alphabet, this.letterId);
     },
     methods: {
       nextLetter() {
@@ -81,12 +82,14 @@
         if (this.letterId > this.alphabet.length - 1) {
           this.letterId = 0;
         }
+        this.combinedLetter = combinedLetter(this.alphabet, this.letterId);
       },
       prevLetter() {
         this.letterId = this.letterId - 1;
         if (this.letterId < 0) {
           this.letterId = this.alphabet.length - 1;
         }
+        this.combinedLetter = combinedLetter(this.alphabet, this.letterId);
       },
       randLetter() {
         let newLetterId = this.letterId;
@@ -94,6 +97,7 @@
           newLetterId = Math.floor(Math.random() * this.alphabet.length);
         }
         this.letterId = newLetterId;
+        this.combinedLetter = combinedLetter(this.alphabet, this.letterId);
       }
     }
   }

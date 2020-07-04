@@ -53,11 +53,46 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
-    '@nuxt/http'
+    '@nuxt/http',
+    ['nuxt-i18n', {
+      locales: [
+        {
+          name: 'English',
+          code: 'en',
+          iso: 'en-US',
+          file: 'en-US.js'
+        },
+        {
+          name: 'French',
+          code: 'fr',
+          iso: 'fr-FR',
+          file: 'fr-FR.js'
+        },
+      ],
+      langDir: 'locale/',
+      defaultLocale: 'en',
+      lazy: true,
+      detectBrowserLanguage: {
+        // If enabled, a cookie is set once a user has been redirected to his
+        // preferred language to prevent subsequent redirections
+        // Set to false to redirect every time
+        useCookie: true,
+        // Set to override the default domain of the cookie. Defaults to host of the site.
+        cookieDomain: null,
+        // Cookie name
+        cookieKey: 'i18n_redirected',
+        // Set to always redirect to value stored in the cookie, not just once
+        alwaysRedirect: true,
+        // If no locale for the browsers locale is a match, use this one as a fallback
+        fallbackLocale: null
+      },
+    }]
   ],
-  bootstrapVue: {
-    icons: true // Install the IconsPlugin (in addition to BootStrapVue plugin
-  },
+  bootstrapVue:
+    {
+      icons: true // Install the IconsPlugin (in addition to BootStrapVue plugin
+    }
+  ,
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
