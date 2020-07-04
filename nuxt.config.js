@@ -23,7 +23,11 @@ export default {
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ],
-    script: []
+    script: [
+      {
+        src: "https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      }
+    ]
   },
   /*
   ** Global CSS

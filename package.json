@@ -17,5 +17,10 @@
     "marked": "^1.1.0",
     "nuxt": "^2.13.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0"
+    }
+  }
 }

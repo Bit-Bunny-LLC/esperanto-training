@@ -5,7 +5,7 @@
     "majuscule": "A",
     "minuscule": "a",
     "pronunciation": "a",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -20,7 +20,7 @@
     "majuscule": "B",
     "minuscule": "b",
     "pronunciation": "bo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -35,7 +35,7 @@
     "majuscule": "C",
     "minuscule": "c",
     "pronunciation": "co",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -50,7 +50,7 @@
     "majuscule": "Ĉ",
     "minuscule": "ĉ",
     "pronunciation": "ĉo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -65,7 +65,7 @@
     "majuscule": "D",
     "minuscule": "d",
     "pronunciation": "do",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -80,7 +80,7 @@
     "majuscule": "E",
     "minuscule": "e",
     "pronunciation": "e",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -95,7 +95,7 @@
     "majuscule": "F",
     "minuscule": "f",
     "pronunciation": "fo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -110,7 +110,7 @@
     "majuscule": "G",
     "minuscule": "g",
     "pronunciation": "go",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -125,7 +125,7 @@
     "majuscule": "Ĝ",
     "minuscule": "ĝ",
     "pronunciation": "ĝo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -140,7 +140,7 @@
     "majuscule": "H",
     "minuscule": "h",
     "pronunciation": "ho",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -155,7 +155,7 @@
     "majuscule": "Ĥ",
     "minuscule": "ĥ",
     "pronunciation": "ĥo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -170,7 +170,7 @@
     "majuscule": "I",
     "minuscule": "i",
     "pronunciation": "i",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -185,7 +185,7 @@
     "majuscule": "J",
     "minuscule": "j",
     "pronunciation": "jo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -200,7 +200,7 @@
     "majuscule": "Ĵ",
     "minuscule": "ĵ",
     "pronunciation": "ĵo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -215,7 +215,7 @@
     "majuscule": "K",
     "minuscule": "k",
     "pronunciation": "ko",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -230,7 +230,7 @@
     "majuscule": "L",
     "minuscule": "l",
     "pronunciation": "lo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -245,7 +245,7 @@
     "majuscule": "M",
     "minuscule": "m",
     "pronunciation": "mo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -260,7 +260,7 @@
     "majuscule": "N",
     "minuscule": "n",
     "pronunciation": "no",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -275,7 +275,7 @@
     "majuscule": "O",
     "minuscule": "o",
     "pronunciation": "o",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -290,7 +290,7 @@
     "majuscule": "P",
     "minuscule": "p",
     "pronunciation": "po",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -305,7 +305,7 @@
     "majuscule": "R",
     "minuscule": "r",
     "pronunciation": "ro",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -320,7 +320,7 @@
     "majuscule": "S",
     "minuscule": "s",
     "pronunciation": "so",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -335,7 +335,7 @@
     "majuscule": "Ŝ",
     "minuscule": "ŝ",
     "pronunciation": "ŝo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -350,7 +350,7 @@
     "majuscule": "T",
     "minuscule": "t",
     "pronunciation": "to",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -365,7 +365,7 @@
     "majuscule": "U",
     "minuscule": "u",
     "pronunciation": "u",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -380,7 +380,7 @@
     "majuscule": "Ŭ",
     "minuscule": "ŭ",
     "pronunciation": "ŭ",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -395,7 +395,7 @@
     "majuscule": "V",
     "minuscule": "v",
     "pronunciation": "vo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",
@@ -410,7 +410,7 @@
     "majuscule": "Z",
     "minuscule": "z",
     "pronunciation": "zo",
-    "audio*file": "",
+    "audio-file": "",
     "translations": [
       {
         "lang": "en",

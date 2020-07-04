@@ -8,20 +8,19 @@
     <p>Esperanto is written in a Latin-script alphabet of twenty-eight letters, with upper and lower case. This is
       supplemented by punctuation marks and by various logograms, such as the digits 0–9, currency signs such as $, and
       mathematical symbols. See the <a href="https://en.wikipedia.org/wiki/Esperanto_orthography"
-                                               target="_blank" class="offsite">Esperanto Orthography
-        <b-icon icon="box-arrow-up-right"></b-icon></a> article on Wikipedia for more detailed information.
+                                       target="_blank" class="offsite">Esperanto Orthography
+        <b-icon icon="box-arrow-up-right"></b-icon>
+      </a> article on Wikipedia for more detailed information.
     </p>
 
-    <div>
-      <b-table striped borderless small :items="items" :fields="fields">
-        <template v-slot:cell(type)="data">
-          <span class="type">{{data.value}}</span>
-        </template>
-        <template v-slot:cell(example)="data">
-          <span v-html="data.value"></span>
-        </template>
-      </b-table>
-    </div>
+    <b-table striped borderless small :items="items" :fields="fields">
+      <template v-slot:cell(type)="data">
+        <span class="type">{{data.value}}</span>
+      </template>
+      <template v-slot:cell(example)="data">
+        <span v-html="data.value"></span>
+      </template>
+    </b-table>
 
   </main>
 </template>
